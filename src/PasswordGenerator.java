@@ -2,8 +2,10 @@
 
 public class PasswordGenerator {
     public static void main(String[] args) {
+
         // Dati dell'utente
         // Definisco le variabili per tipo
+
         String nome = "Danilo";
         String cognome = "Pirro";
         String colorePreferito = "Verde";
@@ -12,13 +14,15 @@ public class PasswordGenerator {
         int annoNascita = 1990;
 
         // Calcolo la somma tra giorno, mese e anno di nascita
+
         int sommaData = giornoNascita + meseNascita + annoNascita;
 
-        // ! Chiedo di generare una password concatenando le informazioni richieste e
-        // separando con "-"
-        String password = nome + "-" + cognome + "-" + colorePreferito + "-" + sommaData;
+        // ! Chiedo di generare una password concatenando le informazioni richieste e separando con "-"
+
+        String password = nome + "-" + cognome + "-" + colorePreferito + "-" + annoNascita;
 
         // Mando iin stampa la password generata
+
         System.out.println("La password generata è: " + password);
     }
 }
