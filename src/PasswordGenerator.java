@@ -1,4 +1,4 @@
-
+package org.lessons.java.security;
 
 public class PasswordGenerator {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class PasswordGenerator {
         // Definisco le variabili per tipo
 
         String nome = "Danilo";
-        String cognome = "Pirro";
+        String cognome = "Pirro";   
         String colorePreferito = "Verde";
         int giornoNascita = 01;
         int meseNascita = 7;
@@ -19,7 +19,7 @@ public class PasswordGenerator {
 
         // ! Chiedo di generare una password concatenando le informazioni richieste e separando con "-"
 
-        String password = nome + "-" + cognome + "-" + colorePreferito + "-" + annoNascita;
+        String password = nome + "-" + cognome + "-" + colorePreferito + "-" + sommaData;
 
         // Mando iin stampa la password generata
 
