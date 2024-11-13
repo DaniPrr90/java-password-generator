@@ -6,20 +6,20 @@ public class PasswordGenerator {
         // Dati dell'utente
         // Definisco le variabili per tipo
 
-        String nome = "Danilo";
-        String cognome = "Pirro";   
-        String colorePreferito = "Verde";
-        int giornoNascita = 01;
-        int meseNascita = 7;
-        int annoNascita = 1990;
+        String name = "Danilo";
+        String fistName = "Pirro";   
+        String favoriteColor = "Verde";
+        int dayBirth = 01;
+        int monthBirth = 7;
+        int yearBirth = 1990;
 
         // Calcolo la somma tra giorno, mese e anno di nascita
 
-        int sommaData = giornoNascita + meseNascita + annoNascita;
+        int sommaData = dayBirth + monthBirth + yearBirth;
 
         // ! Chiedo di generare una password concatenando le informazioni richieste e separando con "-"
 
-        String password = nome + "-" + cognome + "-" + colorePreferito + "-" + sommaData;
+        String password = name + "-" + fistName + "-" + favoriteColor + "-" + sommaData;
 
         // Mando iin stampa la password generata
 
